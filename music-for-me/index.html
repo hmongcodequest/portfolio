@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Keng || Music</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link rel="shortcut icon" href="../profile.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <div class="title noto-sans-lao-looped-100 title-music">
+      ເພງ: ຫົວໃຈຂອງຂ້ອຍເຈັບປວດ <small>ບໍ່ມີລິຂະສິດ</small>
+    </div>
+    <div id="player">
+      <div id="canvas-holder">
+        <canvas id="canvas"></canvas>
+      </div>
+      <div id="audio">
+        <audio
+          id="audioObj"
+          preload="true"
+          crossorigin="anonymous"
+          src=""
+          controls=""
+          loop=""
+        ></audio>
+      </div>
+      <div id="play"></div>
+      <div id="mute"></div>
+    </div>
+    <div class="context-music">Hello</div>
+    <!-- partial -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
