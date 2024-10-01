@@ -1,5 +1,5 @@
 @import url('https://unpkg.com/normalize.css') layer(normalize);
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao+Looped:wght@100..900&display=swap');
 @layer normalize, base, demo;
 
 @layer demo {
@@ -265,7 +265,7 @@
     display: grid;
     place-items: center;
     min-height: 100vh;
-    font-family: 'SF Pro Text', 'SF Pro Icons', 'AOS Icons', 'Helvetica Neue',
+    font-family: 'SF Pro Text', 'SF Pro Icons',"Noto Sans Lao Looped", 'AOS Icons', 'Helvetica Neue',
       Helvetica, Arial, sans-serif, system-ui;
   }
 
